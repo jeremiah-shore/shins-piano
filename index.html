@@ -11,6 +11,7 @@
   <!-- css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
 
 </head>
 <body>
@@ -28,38 +29,70 @@
     </nav>
 
     <!-- jumbotron -->
-    <div class="jumbotron bg-dark text-white">
-      <h1>Shin's Piano Lessons</h1>
-      <p class="lead">Piano for all levels and ages. Serving southern NJ and eastern Philadelphia.</p>
+    <div class="jumbotron text-white">
+        <h1>Shin's Piano Lessons</h1>
+        <p class="lead">Piano for all levels and ages. Serving southern NJ and eastern Philadelphia.</p>
     </div>
   </header>
 
   <!-- content-wrapper -->
   <div class="container" id="content-wrapper">
 
-    <div id="promo">
-      <h2>Studies show that playing piano can:</h2>
-      <ul class="music-note-list">
-        <li>re-wire neural circuits</li>
-        <li>develop parts of the sensory cortex</li>
-        <li>improve coordination</li>
-        <li>improve concentration</li>
-        <li>develop higher reading and math scores</li>
-        <li>enhance memory</li>
-        <li>increase confidence</li>
-      </ul>
-    </div>
 
-    <section id="about">
-      <h2>About the Teacher</h2>
-      <p class="lead">Fun lessons in a friendly atmosphere.</p>
-      <p>Hello, my name is Shin-Yin Estes. I’ve been providing students of all skill levels with professional piano training for more than 25 years.&nbsp;I believe it’s difficult&nbsp;for those looking to learn piano to find a teacher that can guide&nbsp;at any skill level, from absolute beginner to concert-ready. It’s rare to find someone&nbsp;with a high-quality music education, actual experience performing in front of large audiences, and years of practical experience teaching. It is my goal to take these&nbsp;accomplishments and put them at your disposal to give you the personalized piano education that you or your loved ones deserve.</p>
-      <p>A strong understanding of music is essential to learning any instrument. I take special care to make sure my beginner students form a solid musical foundation that they can build upon for years to come. I teach in many styles of music, such as classical, jazz, and pop. &nbsp;I offer lessons to people of all ages and all levels of experience. &nbsp;Why not give yourself or your family a lifetime of musical enrichment?</p>
-      <p>Lessons and event booking are available to Camden county New Jersey and surrounding areas, including eastern Philadelphia. &nbsp;For specific questions about areas of coverage please <a href="#signup">contact the teacher</a>.</p>
-      <strong>2nd intro (blend this with the content above)</strong>
-      <p>Shin-Yin Estes is a member of the Philharmonic of South Jersey, the New Jersey Music Teachers Association, and the National Guild of Piano Teachers.  Winner of numerous piano competitions, she graduated in 1983 from the Philadelphia College of the Performing Arts (Univ. of the Arts).  She has been honored with Who’s Who among students in American universities and colleges.  Shin-Yin has been teaching piano in a personalized manner for over 25 years. She has a passion for teaching and a unique musical outlook; both will help you or your loved ones realize a sense of musical potential and a personal love of music.</p>
-      <p>For those who speak Mandarin Chinese, Shin-Yin is bilingual, and can teach completely in Mandarin if preferred.</p>
+    <section id="intro" class="text-center">
+      <h2 class="text-muted mb-4">Meet Your Teacher</h2>
+      <div class="row">
+        <div class="col p-4  d-flex flex-column justify-content-around">
+          <div class="valign-wrapper">
+            <p>Playing piano can be tough. Luckily, I'm here to help with that!</p>
+            <p>I'm highly educated in my craft, I've performed in front of large audiences, and I have more than 25 years teaching piano to students at all levels.</p>
+          </div>
+        </div>
+        <div id="intro-card" class="col">
+          <img class="mb-3" src="img/small-shin-pic.jpg" alt="">
+          <p class="lead pb-4">Hello, my name is Shin-Yin Estes.</p>
+          <p>It's my goal to give you the personalized piano education that you or your loved ones deserve.</p>
+        </div>
+        <div class="col p-4 d-flex flex-column justify-content-around">
+          <div class="valign-wrapper">
+            <button class="btn btn-secondary mb-3">view my credentials</button>
+            <p>It's important to ensure your music teachers know what they're doing.</p>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <section id="about" class="pt-5">
+      <h2 class="text-center mb-4 text-muted">Teacher Credentials</h2>
+      <p>Shin-Yin Estes is a member of the Philharmonic of South Jersey, the New Jersey Music Teachers Association, and the National Guild of Piano Teachers.  Winner of numerous piano competitions, she graduated in 1983 from the Philadelphia College of the Performing Arts (Univ. of the Arts).  She has been honored with Who’s Who among students in American universities and colleges. She has a passion for teaching and a unique musical outlook; both will help you or your loved ones realize a sense of musical potential and a personal love of music.</p>
+      <p>Shin-Yin is also bilingual, and can teach completely in Mandarin Chinese, if preferred.</p>
+    </section>
+
+    <section id="musical-foundation" class="pt-5">
+      <h2 class="h2 text-center text-muted mb-4">Build Your Musical Foundation</h2>
+      <div class="row">
+        <p class="col text-center"><i class="material-icons col-icon">local_library</i>A strong understanding of music theory is essential to learning any instrument. I take special care to make sure my beginner students form a solid musical foundation that they can build upon for years to come.</p>
+        <p class="col text-center"><i class="material-icons col-icon">school</i>I can teach many different styles, including classical, jazz, and pop. I offer lessons to people of all ages and all levels of experience. Why not give yourself or your family a lifetime of musical enrichment?</p>
+        <p class="col text-center"><i class="material-icons col-icon">map</i>Lessons and event booking are available to Camden county New Jersey and surrounding areas, including eastern Philadelphia. For specific questions about areas of coverage please <a href="#contact">contact the teacher</a>.</p>
+      </div>
+    </section>
+
+    <div id="promo" class="pt-5">
+      <div class="row">
+        <div class="col">
+          <h2>Studies show that playing piano can:</h2>
+          <ul class="music-note-list">
+            <li>re-wire neural circuits</li>
+            <li>develop parts of the sensory cortex</li>
+            <li>improve coordination</li>
+            <li>improve concentration</li>
+            <li>develop higher reading and math scores</li>
+            <li>enhance memory</li>
+            <li>increase confidence</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <section id="booking">
       <h2>Event Booking</h2>
