@@ -55,12 +55,23 @@ i.material-icons.col-icon {
   top: 3px;
 }
 
-.text-primary, a.text-primary:hover, a, a:hover {
+.text-primary, a.text-primary:hover, a, a:hover, a.text-primary:active {
   color: #db6a6b !important;
   text-decoration: none;
 }
 
 .btn-primary {
+  background-color: #db6a6b;
+  border: 1px solid #db6a6b;
+}
+
+.btn-outline-primary {
+  border: 1px solid #db6a6b;
+  color: #db6a6b;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-primary:hover, .btn-primary:active  {
+  color: white;
   background-color: #db6a6b;
   border: 1px solid #db6a6b;
 }
