@@ -2,6 +2,7 @@
 
 .jumbotron {
   background: #222;
+  border-radius: 0;
 }
 
 @media (min-width: 1024px) {
