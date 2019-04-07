@@ -55,17 +55,11 @@
         </div>
         <div class="col p-4 d-flex flex-column justify-content-around">
           <div class="valign-wrapper">
-            <button class="btn btn-secondary mb-3">view my credentials</button>
+            <button class="btn btn-secondary mb-3" data-toggle="modal" data-target="#credentials-modal">view my credentials</button>
             <p>It's important to ensure your music teachers know what they're doing.</p>
           </div>
         </div>
       </div>
-    </section>
-
-    <section id="about" class="pt-5">
-      <h2 class="text-center mb-4 text-muted">Teacher Credentials</h2>
-      <p>Shin-Yin Estes is a member of the Philharmonic of South Jersey, the New Jersey Music Teachers Association, and the National Guild of Piano Teachers.  Winner of numerous piano competitions, she graduated in 1983 from the Philadelphia College of the Performing Arts (Univ. of the Arts).  She has been honored with Who’s Who among students in American universities and colleges. She has a passion for teaching and a unique musical outlook; both will help you or your loved ones realize a sense of musical potential and a personal love of music.</p>
-      <p>Shin-Yin is also bilingual, and can teach completely in Mandarin Chinese, if preferred.</p>
     </section>
 
     <section id="musical-foundation" class="pt-5">
@@ -116,6 +110,24 @@
     </section>
 
   </div> <!-- /content-wrapper -->
+
+  <!-- credentials-modal -->
+  <div id="credentials-modal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Teacher Credentials</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Shin-Yin Estes is a member of the Philharmonic of South Jersey, the New Jersey Music Teachers Association, and the National Guild of Piano Teachers.  Winner of numerous piano competitions, she graduated in 1983 from the Philadelphia College of the Performing Arts (Univ. of the Arts).  She has been honored with Who’s Who among students in American universities and colleges. She has a passion for teaching and a unique musical outlook; both will help you or your loved ones realize a sense of musical potential and a personal love of music.</p>
+          <p>Shin-Yin is also bilingual, and can teach completely in Mandarin Chinese, if preferred.</p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /credentials-modal -->
 
   <!-- deferred scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
