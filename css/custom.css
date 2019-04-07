@@ -64,3 +64,11 @@ i.material-icons.col-icon {
   background-color: #db6a6b;
   border: 1px solid #db6a6b;
 }
+
+.inline-icon {
+  color: #ddd;
+  font-size: 2rem;
+  position: relative;
+  top: 12px;
+  padding-right: 10px;
+}
