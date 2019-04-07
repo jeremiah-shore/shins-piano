@@ -23,9 +23,9 @@
         <li class="nav-item"><a href="#home" class="nav-link text-dark">Home</a></li>
         <li class="nav-item"><a href="#about" class="nav-link text-dark">About the Teacher</a></li>
         <li class="nav-item"><a href="#expectations" class="nav-link text-dark">What to Expect</a></li>
-        <li class="nav-item"><a href="#lessons" class="nav-link text-dark">Lesson Info</a></li>
+        <li class="nav-item"><a href="#lesson-info" class="nav-link text-dark">Lesson Info</a></li>
+        <li class="nav-item"><a href="#signup" class="nav-link text-dark" data-toggle="modal" data-target="#signup-modal">Sign Up</a></li>
         <li class="nav-item"><a href="#booking" class="nav-link text-dark" data-toggle="modal" data-target="#booking-modal">Event Booking</a></li>
-        <li class="nav-item"><a href="#signup" class="nav-link text-dark">Sign Up</a></li>
       </ul>
     </nav>
 
@@ -70,7 +70,7 @@
       <div class="row mt-4">
         <p class="col-4 text-center"><i class="material-icons col-icon">local_library</i>A strong understanding of music theory is essential to learning any instrument. I take special care to make sure my beginner students form a solid musical foundation that they can build upon for years to come.</p>
         <p class="col-4 text-center"><i class="material-icons col-icon">school</i>I can teach many different styles, including classical, jazz, and pop. I offer lessons to people of all ages and all levels of experience. Why not give yourself or your family a lifetime of musical enrichment?</p>
-        <p class="col-4 text-center"><i class="material-icons col-icon">map</i>Lessons and <a href="#booking"  data-toggle="modal" data-target="#booking-modal">event booking</a> are available to Camden county New Jersey and surrounding areas, including eastern Philadelphia. For specific questions about areas of coverage please <a class="text-primary" href="mailto:shin.estes@gmail.com">contact the teacher</a>.</p>
+        <p class="col-4 text-center"><i class="material-icons col-icon">map</i>Lessons and <a href="#booking"  data-toggle="modal" data-target="#booking-modal">event booking</a> are available to Camden county New Jersey and surrounding areas, including eastern Philadelphia. For specific questions about areas of coverage please <a href="" data-toggle="modal" data-target="#signup-modal">reach out</a> for more information</a>.</p>
       </div>
 
       <div class="row mt-4">
@@ -91,7 +91,7 @@
           <div class="valign-wrapper">
             <p class="lead">What are you waiting for?</p>
             <p>Don't miss out on a deeply rewarding experience. Take the step you've always wanted, or help a loved one reach their goal. </p>
-            <button class="btn btn-outline-primary">book your first lesson</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#signup-modal">contact me for details</button>
           </div>
         </div>
         <div class="col-2"></div>
@@ -99,8 +99,8 @@
     </section>
     <hr>
 
-    <section id="signup" class="text-center">
-      <h2 class="text-muted text-center pt-4 pb-3">Lesson Info &amp; Registration</h2>
+    <section id="lesson-info" class="text-center mb-5">
+      <h2 class="text-muted text-center pt-4 pb-3">Lesson Info</h2>
       <div class="row">
         <div class="col">
           <h3 class="lead">Pricing</h3>
@@ -119,10 +119,16 @@
           <p>Lesson sessions can be rescheduled if given <strong>24 hours advance notice</strong>.</p>
         </div>
       </div>
-      <button class="btn btn-lg btn-primary mt-4">book your first lesson</button>
+      <button class="btn btn-lg btn-outline-primary mt-5 mb-5" data-toggle="modal" data-target="#signup-modal">book your first lesson</button>
     </section>
 
   </div> <!-- /content-wrapper -->
+
+  <footer id="site-footer">
+    <div class="container text-muted">
+      &copy;2019 Shin-Yin Estes, all rights reserved. Designed for web and mobile by <a href="http://www.jeremiahshore.net" target="_blank">Jeremiah Shore</a>.
+    </div>
+  </footer>
 
   <!-- credentials-modal -->
   <div id="credentials-modal" class="modal" tabindex="-1" role="dialog">
@@ -156,7 +162,7 @@
         <div class="modal-body p-4">
           <p class="lead">Beautiful music for any occasion.</p>
           <p>In addition to teaching, I am also available to perform at private events, such as parties and weddings.</p>
-          <p>I can play a wide variety of styles. As long as I can find sheet music for it, I can play it!</p>
+          <p>My specialty is classical music, but I can play a wide variety of styles. As long as I can find sheet music for it, I can play it!</p>
           <p>All events must be booked at least one week in advance. Rates for events are customized, so please contact me for further details.</p>
           <p><i class="material-icons inline-icon">email</i><a href="mailto:shin.estes@gmail.com?subject=event booking" target="_blank">shin.estes@gmail.com</a></p>
           <p><i class="material-icons inline-icon">local_phone</i><a href="tel:8569048499">(856) 904-8499</a></p>
@@ -164,6 +170,27 @@
       </div>
     </div>
   </div> <!-- /booking-modal -->
+
+  <!-- signup-modal -->
+  <div id="signup-modal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Sign Up for Piano Lessons</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body p-4">
+          <p>Ready to schedule your first lesson? Or maybe you just have some questions?</p>
+          <p>Either way, the next step is to start a conversation. Please contact me using the info below, and we'll work out the details from there.</p>
+          <p><i class="material-icons inline-icon">email</i><a href="mailto:shin.estes@gmail.com" target="_blank">shin.estes@gmail.com</a></p>
+          <p><i class="material-icons inline-icon">local_phone</i><a href="tel:8569048499">(856) 904-8499</a></p>
+          <p class="pt-4 lead">Thanks for visiting!</p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /signup-modal -->
 
   <!-- deferred scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

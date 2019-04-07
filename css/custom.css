@@ -83,3 +83,8 @@ i.material-icons.col-icon {
   top: 12px;
   padding-right: 10px;
 }
+
+#site-footer {
+  background-color: #eee;
+  padding: 1.5em 0;
+}
