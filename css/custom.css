@@ -33,3 +33,20 @@ i.material-icons.col-icon {
 #intro-card .lead {
   margin-bottom: 0;
 }
+
+.music-note-list {
+  padding-left: 0;
+}
+
+.music-note-list li {
+  list-style-type: none;
+}
+
+.music-note-list li:before {
+  font-family: 'Material Icons';
+  content: "music_note";
+  -webkit-font-feature-settings: 'liga';
+  padding-right: 5px;
+  position: relative;
+  top: 3px;
+}
